@@ -1,0 +1,58 @@
+body{
+  height: 100vh;
+  margin: 0;
+  background-color: hsla(30, 3%, 77%, 0.4);
+}
+main, .container, .container2, address, form, form div{
+  display: flex;
+}
+main{
+  height: inherit;
+  align-items: center;
+}
+.container{
+  text-align: left;
+}
+.container2, .container{
+  width: 50%;
+}
+address, form, .container{
+  flex-direction: column;
+}
+a{
+  text-decoration: none;
+}
+h2, address, a, [type="text"], [type="email"], textarea{
+  color: hsl(279, 100%, 30%);
+}
+form div, textarea, h2, address{
+  margin-left: 25%;
+}
+[type="text"], [type="email"]{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 30%;
+}
+[type="text"]{
+  margin-right: 10px;
+}
+textarea{
+  width: 50%;
+  max-width: 50%;
+  min-width: 50%;
+  max-height: 300px;
+  min-height: 100px;
+  box-sizing: border-box;
+}
+form [type="submit"]{
+  align-self: flex-end;
+  border:none;
+  background-color: hsl(279, 100%, 30%);
+  color: white;
+  padding: 10px 15px;
+  margin-top: 5px;
+  margin-right: 25%;
+}
+img{
+  width: 100%;
+}

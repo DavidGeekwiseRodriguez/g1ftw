@@ -1,3 +1,5 @@
+/*DAVID LEE*/
+
 @import 'https://fonts.googleapis.com/css?family=Poppins';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
 body{
@@ -34,7 +36,7 @@ nav ul a{
 }
 body{
  background-color: hsl(263, 38%, 78%);
- 
+
 }
 #hero::after{
   content: "";
